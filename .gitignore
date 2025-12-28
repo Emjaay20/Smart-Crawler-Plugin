@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+
+# Build artifacts (temp)
+smart-content-fetcher/
+*.zip
+smart-content-fetcher-build/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env

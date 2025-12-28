@@ -1,0 +1,85 @@
+#scf-meta-box-container {
+    padding: 10px;
+}
+
+#scf-input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#scf-admin-url {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+.scf-admin-loader {
+    display: none;
+    margin: 10px 0;
+    color: #0073aa;
+    font-style: italic;
+}
+
+.scf-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #0073aa;
+    animation: scf-spin 1s ease-in-out infinite;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@keyframes scf-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#scf-admin-result {
+    display: none;
+    border: 1px solid #ccd0d4;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#scf-preview-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: block;
+}
+
+#scf-preview-title {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+#scf-preview-summary {
+    font-size: 0.9em;
+    color: #555;
+}
+
+#scf-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+#scf-admin-error {
+    color: #d63638;
+    margin-top: 10px;
+    display: none;
+    font-weight: 500;
+}
